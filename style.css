@@ -1,0 +1,45 @@
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    height: 40px;
+    align-items: center;
+    gap: 10%;
+}
+
+.logo img{
+    height: 35px;
+}
+
+.navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navLogin{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav div a{
+    text-decoration: none;
+    color: black;
+}
+#navbtn1{
+    padding: 10px;
+    background: none;
+    border-color: blueviolet;
+    color: blueviolet;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#navbtn2{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+}
