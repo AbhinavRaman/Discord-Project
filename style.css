@@ -1,7 +1,7 @@
 .nav{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 20px 80px 20px 80px;
+    margin: 4vh 2vw;
     height: 40px;
     align-items: center;
     gap: 10%;
@@ -19,6 +19,7 @@
 .navMenu button{
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .navLogin{
@@ -45,4 +46,31 @@
     color: white;
     border-radius: 5px;
     border: 1px solid blueviolet;
+}
+
+.burger{
+    display: none;
+}
+
+@media (max-width: 990px) and (min-width: 0px){
+    .nav{
+        grid-template-columns: auto auto auto;
+    }
+    .navLogin{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width:600px) and (min-width: 0px) {
+    .nav{
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+    .navMenu{
+        display: none;
+    }
 }
