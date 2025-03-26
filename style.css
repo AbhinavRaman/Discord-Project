@@ -5,6 +5,9 @@
     height: 40px;
     align-items: center;
     gap: 10%;
+    background-color: beige;
+    padding: 8px 20px;
+    border-radius: 15px;
 }
 
 .logo img{
@@ -32,24 +35,47 @@
     text-decoration: none;
     color: black;
 }
-#navbtn1{
+.navbtn1{
     padding: 10px;
     background: none;
-    border: 1.2px solid blueviolet;
+    border: 1.2px solid rgb(38, 13, 62);
     color: blueviolet;
     border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
 }
-#navbtn2{
+.navbtn2{
     padding: 10px;
-    background-color: blueviolet;
+    background-color: rgb(42, 15, 67);
     color: white;
     border-radius: 5px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(42, 12, 70);
+    cursor: pointer;
 }
 
 .burger{
     display: none;
+}
+
+.titleVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleVideo video{
+    max-height: 3rem;
+    max-width: 100%;
+}
+
+.heroButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 5px 0px; 
+}
+
+#heroBtn1{
+    margin: 4px;
 }
 
 @media (max-width: 990px) and (min-width: 0px){
