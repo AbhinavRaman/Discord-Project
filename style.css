@@ -78,6 +78,30 @@
     margin: 4px;
 }
 
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companiesLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.companiesLogo img{
+    margin: 10px;
+}
+
+.landingVideo video{
+    width: 70%;
+    height: 10%;
+    margin: 0px 15%;
+    border-radius: 10px;
+}
+
 @media (max-width: 990px) and (min-width: 0px){
     .nav{
         grid-template-columns: auto auto auto;
@@ -98,5 +122,11 @@
     }
     .navMenu{
         display: none;
+    }
+    .heroButtons{
+        flex-wrap: wrap;
+    }
+    .text{
+        text-align: center;
     }
 }
